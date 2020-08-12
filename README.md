@@ -1,6 +1,3 @@
-# Covid-update-extension
-Covid-19 extension For Daily Updates
-
 # Add Extension
 Open Extensions
 
