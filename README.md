@@ -1,7 +1,7 @@
 # Covid-update-extension
 Covid-19 extension For Daily Updates
 
-#Add Extension
+# Add Extension
 Open Extensions
 Enable Developer Mode
 Load Unpacked 
