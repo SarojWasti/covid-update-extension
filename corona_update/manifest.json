@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Covid-19 Update",
+    "description": "Get realtime update about COVID-19.",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_popup": "index.html"
+    }
+}

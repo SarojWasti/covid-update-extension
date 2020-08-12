@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Update</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="script.js" defer></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    body{
+        background-color: rgba(242,242,242,1);
+    }
+    .container{
+        width: 450px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    h3{
+        margin-top: 20px;
+        font-weight: bold;
+        color: #09095B;
+        margin-bottom: 1em;
+    }
+    .grid-container {
+        display: grid;
+        grid-gap: 35px;
+        grid-template-columns: auto auto;
+        padding: 15px;
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: -3px -3px 5px #f0f0f0, 3px 3px 5px #8c8c8c;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #0f0f0f;
+        border-color: white;
+        height: 60px;
+        width: 150px;
+        padding: 8px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .grid-item div{
+        font-weight: bold;
+    }
+    .pl-options{
+        cursor: pointer;
+        background-color: #f0f0f0;
+        padding: 5px 5px;
+        margin-bottom: 1em;
+        border-radius: 5px;
+    }
+    .pl-options:hover{
+        border: 1px solid black;
+    }
+    </style>
+<body>
+    <div class="container check">
+        <div class="head" style="margin-bottom: 20px;">
+            
+            <h3>Covid-19 Update</h3>
+            <select class="pl-options" style="width: 200px;">
+                <option class="gb" value="Global">Global</option>
+                <option class="np" value="Nepal">Nepal</option>
+            </select>
+            <div class="grid-container">
+                <div class="grid-item case">New Cases</div>
+                <div class="grid-item">Total Cases<div class="totalCases" style="font-size: 20px; color: #2B81EA;">Fetching...</div></div>
+                <div class="grid-item">Total Recovered<div class="totalRecovered" style="font-size: 20px; color: #61C323;">Fetching...</div></div>
+                <div class="grid-item">Total Deaths<div class="totalDeaths" style="font-size: 20px; color: #E15249;">Fetching...</div></div>
+              </div>
+        </div>
+    </div>
+</body>
+</html>
