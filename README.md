@@ -3,7 +3,7 @@ Open Extensions
 
 Enable Developer Mode
 
-Load Unpacked to search for extension folder
+Load Unpacked to add extension folder
 
 And It's Done!
 
