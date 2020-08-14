@@ -8,7 +8,7 @@ if(navigator.onLine){
     document.querySelector(".case").appendChild(div);
 
     //global function for fetching data
-    var globalStats = function() {
+    var globalStats = () => {
         fetch("https://api.covid19api.com/summary")
         .then((response) => response.json())
         .then((data) => {
@@ -23,7 +23,7 @@ if(navigator.onLine){
     globalStats();
 
     //function for fetching data of Nepal
-    var nepStats = function() {
+    var nepStats = () => {
         fetch("https://api.covid19api.com/total/country/nepal")
         .then((response) => response.json())
         .then((data) => {
