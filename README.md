@@ -7,4 +7,4 @@ Load Unpacked
 
 And It's Done!
 
-Note: Fetching data may take 5-10 seconds at first!
+Note: Fetching data may take upto 5 seconds at first!
