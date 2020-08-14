@@ -3,7 +3,7 @@ Open Extensions
 
 Enable Developer Mode
 
-Load Unpacked 
+Load Unpacked to search for extension folder
 
 And It's Done!
 
